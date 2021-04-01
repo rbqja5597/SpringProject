@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class UsrHomeController {
 	
+	
+	// http://localhost:8023/usr/home/main
 	@RequestMapping("usr/home/main")
 	@ResponseBody
 	public String ShowMain() {
